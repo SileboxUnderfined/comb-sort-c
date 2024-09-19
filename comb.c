@@ -34,6 +34,8 @@ int main() {
     printf("Count of iterations: %d\n", count);
     printf("The array was sorted in %f ms", result_time);
 
+    free(numbers);
+
     return 0;
 }
 
